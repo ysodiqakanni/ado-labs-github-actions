@@ -16,3 +16,8 @@ variable "github_repository" {
   type    = string
   default = "ado-labs-github-actions"
 }
+
+variable "token" {
+  type    = string
+  default = "pat_goes_here"
+}
